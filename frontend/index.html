@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art Authentication</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Digital Art Authentication System</h1>
+    </header>
+    <main>
+        <section id="register-artist">
+            <h2>Register as an Artist</h2>
+            <input type="text" id="artist-name" placeholder="Artist Name">
+            <input type="text" id="artist-bio" placeholder="Artist Bio">
+            <input type="text" id="artist-website" placeholder="Website URL">
+            <button onclick="registerArtist()">Register</button>
+        </section>
+
+        <section id="register-artwork">
+            <h2>Register Artwork</h2>
+            <input type="text" id="artwork-title" placeholder="Title">
+            <textarea id="artwork-description" placeholder="Description"></textarea>
+            <input type="text" id="ipfs-hash" placeholder="IPFS Hash">
+            <input type="text" id="metadata-hash" placeholder="Metadata Hash">
+            <input type="text" id="signature-hash" placeholder="Signature Hash">
+            <button onclick="registerArtwork()">Register</button>
+        </section>
+
+        <section id="artwork-list">
+            <h2>Registered Artworks</h2>
+            <button onclick="fetchArtworks()">Load Artworks</button>
+            <ul id="artwork-container"></ul>
+        </section>
+    </main>
+    <script defer src="app.js"></script>
+</body>
+</html>
