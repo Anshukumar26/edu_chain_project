@@ -94,3 +94,5 @@ The smart contract provides the following key features:
 - Contract Address: 0x75500cb8B099f45bC2d7344E33a3C65dd75aAE6b
 - ![Screenshot 2025-03-20 224854](https://github.com/user-attachments/assets/0cf6c9c2-baae-4322-a6f0-03364c3043e9)
 
+## Frontend
+![Screenshot 2025-03-21 152539](https://github.com/user-attachments/assets/066ffc96-679d-4bab-a238-ad1dcc6bea9b)
